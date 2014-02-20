@@ -1,10 +1,10 @@
 
-var type = require('type');
+var type = require('component-type');
 
 try {
-  var clone = require('clone');
+  var clone = require('component-clone');
 } catch (e) {
-  var clone = require('clone-component');
+  // commented out by npm-component: var clone = require('clone-component');
 }
 
 

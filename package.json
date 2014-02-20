@@ -1,8 +1,10 @@
 {
-  "name": "alias",
-  "version": "0.2.0",
+  "name": "segmentio-alias",
+  "description": "Change an object's keys to new keys.",
+  "version": "0.2.1",
   "dependencies": {
-    "clone": "component/clone",
-    "type": "component/type"
-  }
+    "component-clone": "git://github.com/npmcomponent/component-clone.git",
+    "component-type": "git://github.com/npmcomponent/component-type.git"
+  },
+  "license": "MIT"
 }
